@@ -6,19 +6,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumit Raj</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    
 </head>
 <body>
     <header id="body-header">
+        <nav>
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Sumit Raj</h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     
     <main>
         <section id="about">
-
+            <div id="my-image">
+                <img src="images/myprofilepic.jpg" alt="sumit">
+            </div>
+            <p class="text-center">
+                A budding software developer skilled with <span>MERN</span> stack technologies and open to learn different stacks as per the demand of the project. 
+                I am exploring <span>open source</span> and will try to do contributions in large projects. 
+                I am good at <span>problem solving</span>. 
+                I like to find solution of real world problems using my skills as a developer.
+                I like to learn new things and apply them in my work. 
+                I love watching movies and playing sports. 
+            </p>
         </section>
 
         <section id="skills">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span>SKILLS</span>
+            </h1>
 
+            <div class="skills-display">
+                <div class="skill-progress">
+                    <div class="percent85 mb-blue">
+                        <div class="skill-name">
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">
+                    <div class="percent70 mb-red">
+                        <div class="skill-name">
+                            <span>DataStructue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">
+                    <div class="percent65 mb-green">
+                        <div class="skill-name">
+                            <span>Algorithm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">
+                    <div class="percent85 mb-yellowgreen">
+                        <div class="skill-name">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">
+                    <div class="percent85 mb-orange">
+                        <div class="skill-name">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">
+                    <div class="percent80 mb-rose">
+                        <div class="skill-name">
+                            <span>Javascript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">
+                    <div class="percent80 mb-blue">
+                        <div class="skill-name">
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="percent60 mb-yellowgreen">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="percent60 mb-green">
+                        <div class="skill-name">
+                            <span>Express.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="percent60 mb-pink">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="percent60 mb-orange">
+                        <div class="skill-name">
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="experience">
@@ -26,18 +178,119 @@
         </section>
 
         <section id="education">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <span>Education</span>
+            </h1>
 
+            <div class="timeline">
+                <div class="timeline-box"></div>
+                <div class="timeline-box"></div>
+                <div class="timeline-box"></div>
+                <div class="timeline-divider">
+                    <div class="timeline-traveller">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-briefcase"></i>
+                </span>
+                <span>Portfolio</span>
+            </h1>
 
+            <div class="portfolio-display">
+                <div class="project">
+                    <a href="#">
+                        <img src="images/social.jpeg" alt="social-media">
+                    </a>
+                    <div class="project-name">
+                        Codeial Media
+                    </div>
+                </div>
+
+                <div class="project">
+                    <a href="#">
+                        <img src="images/ipod.jpeg" alt="ipod-clone">
+                    </a>
+                    <div class="project-name">
+                        iPod Clone
+                    </div>
+                </div>
+
+                <div class="project">
+                    <a href="#">
+                        <img src="images/musicplayer.jpeg" alt="music-player">
+                    </a>
+                    <div class="project-name">
+                        Ninja Player
+                    </div>
+                </div>
+                
+            </div>
+            </div>
         </section>
 
         <section id="contact">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-address-book"></i>
+                </span>
+                <span>Contact</span>
+            </h1>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message" cols="40" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" id="submitbtn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <p>
+                        <h2>Get In Touch</h2>
+                        <p>
+                            <h4><i class="fas fa-location"></i> Delhi , India</h4>
+                            <h4><i class="fa-solid fa-phone"></i> 6202637635</h4>
+                            <h4><i class="fa-solid fa-square-envelope"></i> <a href="mailto:sumitrajtech@gmail.com?subject=subject" id="mail-link"> sumitrajtech@gmail.com</a></h4>
+                        </p>
+                    </p>
+                </div>
+            </div>
 
+            <div id="social-container">
+                <div>
+                    <ul class="horizontal-list text-center social-icons social-bottom">
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         
     </main>
-
+    
+    <script src="https://kit.fontawesome.com/44f16be928.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+@media screen and (max-width:650px) {
+
+    .timeline-divider{
+        left: 2%;
+    }
+
+    .timeline-box{
+        left: 12% !important;
+        width: 80%;
+    }
+
+    .timeline-box::after{
+        left: -18% !important;
+        width: 80%;
+    }
+    
+}
